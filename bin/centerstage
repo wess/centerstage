@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "centerstage"
+Centerstage::App.start(ARGV)
