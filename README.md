@@ -31,6 +31,9 @@ This will create a folder and a stubbed out Sinatra/Datamapper project that incl
 there is a `.templates` folder, this folder contains the templates used to generate routes (views) and models. You can change or update these as you see fit. When you use the
 `generate` command, Rake will look to the template when generating the file.
 
+You can visit http://github.com/wess/center-stage to see the project's setup. You can fork this repo and and make changes, and rerun `centerstage setup "your-fork-url"` to 
+use your fork.
+
 ## Development
 Pull requests are always welcome, either to the main center-stage project setup or to the centerstage gem.
 
