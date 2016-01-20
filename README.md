@@ -11,15 +11,18 @@ To install, just run:
 ## Usage
 
 Once Centerstage is installed, you can get started using it by running:
+
     $ centerstage setup
 
 This will download the project template from the repo and install it to private directory (~/.center-stage). You can also, optionally, pass a fork url of your Centerstage
 project setup. When you pass your fork (fork of http://github.com/wess/center-stage), Centerstage will attempt to download your fork and setup the project template for create.
 Example:
+
     $ centerstage setup "http://github.com/<yourname>/center-stage"
 
 
 Once setup, you create your new Centerstage project using:
+
     $ centerstage create /path/to/project
     $ cd /path/to/project
     $ bundle install
